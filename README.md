@@ -20,7 +20,7 @@ Powered by python 3.5 and django 1.10
   >> __init__.py<br>
   >> admin.py<br>
   >> apps.py<br>
-  >> forms.py
+  >> forms.py<br>
   >> models.py       ---模型<br>
   >> tests.py<br>
   >> urls.py         ---url解析<br>
