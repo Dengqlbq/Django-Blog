@@ -15,15 +15,15 @@ Powered by python 3.5 and django 1.10
 项目主要结构：
 --- 
   blog/<br>
-      __init__.py<br>
-      admin.py<br>
-      apps.py<br>
-      forms.py
-      models.py       ---模型<br>
-      tests.py<br>
-      urls.py         ---url解析<br>
-      views.py        ---视图函数<br>
-      static/         ---存放hmtl相关静态文件<br>
+     > __init__.py<br>
+     > admin.py<br>
+     > apps.py<br>
+     > forms.py
+     > models.py       ---模型<br>
+     > tests.py<br>
+     > urls.py         ---url解析<br>
+     > views.py        ---视图函数<br>
+     > static/         ---存放hmtl相关静态文件<br>
             blog/<br>
                  css/<br>
                  img/<br>
