@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+{% for article in article_list %}
+<article class="post post-1">
+	<header class="entry-header">
+		<h1 class="entry-title">
+			{{article.title}}
+		</h1>
+			<div class="entry-meta">
+				<span class="post-category" >{{article.category}}</span>
+									
+				<span class="post-date"><time class="entry-date" >{{article.created_time}}</time></span>
+			
+			</div>
+	</header>
+		<div class="entry-content clearfix">
+			<p>{{article.abstract}}</p>
+			<div class="read-more cl-effect-14">
+				<a href="{% url 'blog:detail' article.pk %}" class="more-link">Continue reading <span class="meta-nav">→</span></a>
+			</div>
+		</div>
+</article>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,30 @@
+﻿<div >
+    <div >
+        <p >评论详情</p>
+        <form method="post" action="{% url 'blog:comment' article.pk %}">
+            {% csrf_token %}
+            <div >
+                {% for field in form %}
+                    {{ field }}
+                    {{ field.errors }}
+                    <br>
+                {% endfor %}
+            </div>
+			
+            <button type="submit" >评论</button>
+        </form>
+		
+        <p >共{{ 0 }}条评论</p>
+        <hr>
+        {% for comment in comment_list %}
+            <div >
+                <span >{{ comment.user_name }}</span>
+                <time >{{ comment.created_time }}</time>
+                <div >
+                    {{ comment.body }}
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿{% extends 'base.html' %}
+{% block content %}
+{% for article in in_category_list %}
+<article class="post post-1">
+	<header class="entry-header">
+		<h1 class="entry-title">
+			{{article.title}}
+		</h1>
+			<div class="entry-meta">
+				<span class="post-category" >{{article.category}}</span>
+									
+				<span class="post-date"><time class="entry-date">{{article.created_time}}</time></span>
+			
+			</div>
+	</header>
+		<div class="entry-content clearfix">
+			<p>{{article.abstract}}</p>
+			<div class="read-more cl-effect-14">
+				<a href="/blog/article/{{ article.id }}/" class="more-link">Continue reading <span class="meta-nav">→</span></a>
+			</div>
+		</div>
+</article>
+{% endfor %}
+<center>
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="/blog/incategory/{{category_id}}/page/{{ contacts.previous_page_number }}/" class="more-link"><span class="meta-nav">&larr;</span> </a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="/blog/incategory/{{category_id}}/page/{{ contacts.next_page_number }}/" class="more-link"> <span class="meta-nav">&rarr;</span></a>
+        {% endif %}
+    </span>
+</div>
+</center>
+{% endblock %}

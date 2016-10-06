@@ -1,0 +1,30 @@
+﻿{% extends 'base2.html' %}
+{% block content %}
+{% for category in category_list %}
+<article class="post post-1">
+	<header class="entry-header">
+		<div class="read-more cl-effect-14">
+		<h1 class="entry-title">
+			<a href="/blog/incategory/{{category.id}}/page/1" >{{category.name}}</a>
+		</h1>
+		</div>
+</article>
+{% endfor %}
+<center>
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="/blog/page-of-category/{{ contacts.previous_page_number }}/" class="more-link"><span class="meta-nav">&larr;</span> </a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="/blog/page-of-category/{{ contacts.next_page_number }}/" class="more-link"> <span class="meta-nav">&rarr;</span></a>
+        {% endif %}
+    </span>
+</div>
+</center>
+{% endblock %}

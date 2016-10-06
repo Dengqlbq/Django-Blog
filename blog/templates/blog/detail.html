@@ -1,0 +1,35 @@
+﻿{% extends 'base.html' %}
+{% block content %}
+<article class="post post-1">
+	<header class="entry-header">
+		<h1 class="entry-title">
+			{{article.title}}
+		</h1>
+			<div class="entry-meta">
+				<span class="post-category" >{{article.category}}</span>
+									
+				<span class="post-date"><time class="entry-date" datetime="2012-11-09T23:15:57+00:00">{{article.created_time}}</time></span>
+			
+			</div>
+	</header>
+		<div class="entry-content clearfix">
+			<p>{{article.body}}</p>
+		</div>
+		<div class="entry-meta">
+		<center>
+			<span class="views">views：{{article.views}}</span>
+			
+			<span class="blank">-----</span>
+			
+			<span class="love">love：{{article.likes}}</span>
+		</center>
+		</div>		
+		<div class="entry-meta">
+		<span >标签: </span>
+		{% for tag in in_tag_list %}
+		<span class ="tag">{{tag.name}} </span>
+		{% endfor %}
+		</div>
+</article>
+{% include 'blog/comment.html' %}
+{% endblock %}
