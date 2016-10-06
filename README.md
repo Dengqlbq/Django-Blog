@@ -14,16 +14,16 @@ Powered by python 3.5 and django 1.10
  
 项目主要结构：
 --- 
-  blog/<br>
-     > __init__.py<br>
-     > admin.py<br>
-     > apps.py<br>
-     > forms.py
-     > models.py       ---模型<br>
-     > tests.py<br>
-     > urls.py         ---url解析<br>
-     > views.py        ---视图函数<br>
-     > static/         ---存放hmtl相关静态文件<br>
+  >blog/<br>
+     >> __init__.py<br>
+     >> admin.py<br>
+     >> apps.py<br>
+     >> forms.py
+     >> models.py       ---模型<br>
+     >> tests.py<br>
+     >> urls.py         ---url解析<br>
+     >> views.py        ---视图函数<br>
+     >> static/         ---存放hmtl相关静态文件<br>
             blog/<br>
                  css/<br>
                  img/<br>
@@ -63,9 +63,9 @@ Powered by python 3.5 and django 1.10
     (7) 127.0.0.1:8000/blog  到博客首页<br>
     (8) 127.0.0.1:8000/admin 到博客后台<br>
     
-    注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步<br>
-       username : haha<br>
-       password : wode1234<br>
+    注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步
+       username : haha
+       password : wode1234
   
 
 
