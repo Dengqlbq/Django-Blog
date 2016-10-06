@@ -34,7 +34,7 @@ Powered by python 3.5 and django 1.10
  项目运行方式<br>
  
  1：<br>
-	(1) 下载项目文件到你的电脑<br>
+	*(1) 下载项目文件到你的电脑<br>
 	(2) cd到manage.py所在文件夹<br>
   	(3) 执行以下cmd命令 ：python manage.py makemigrations<br>
                    	    python manage.py migrate<br>
