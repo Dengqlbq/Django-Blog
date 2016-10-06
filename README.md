@@ -17,23 +17,23 @@ Powered by python 3.5 and django 1.10
   >blog/<br>
   >> __init__.py<br>
   >> admin.py<br>
-     >> apps.py<br>
-     >> forms.py
-     >> models.py       ---模型<br>
-     >> tests.py<br>
-     >> urls.py         ---url解析<br>
-     >> views.py        ---视图函数<br>
-     >> static/         ---存放hmtl相关静态文件<br>
-            blog/<br>
-                 css/<br>
-                 img/<br>
-                 js/<br>
-      templates/     ---html文件<br>
-                base.html<br>
-                base2.html<br>
-                blog/<br>
-   mycode/<br>
-   manage.py<br>
+  >> apps.py<br>
+  >> forms.py
+  >> models.py       ---模型<br>
+  >> tests.py<br>
+  >> urls.py         ---url解析<br>
+  >> views.py        ---视图函数<br>
+  >> static/         ---存放hmtl相关静态文件<br>
+  >>>blog/<br>
+  >>>>css/<br>
+  >>>>img/<br>
+  >>>>js/<br>
+  >>templates/     ---html文件<br>
+  >>>base.html<br>
+  >>>base2.html<br>
+  >>>blog/<br>
+  >mycode/<br>
+  >manage.py<br>
 ---                    
  项目运行方式<br>
  
