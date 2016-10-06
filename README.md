@@ -47,12 +47,12 @@ Powered by python 3.5 and django 1.10
 
         python manage.py runserver
 
-7. 浏览器输入 http://127.0.0.1:8000/
+7. 浏览器输入 http://127.0.0.1:8000/blog
     
-8. 注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步
+8. 注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第4,5步
 
- 	  username : haha
-	   password : wode1234
+ 	  	username : haha
+	   	password : wode1234
   
 
 
