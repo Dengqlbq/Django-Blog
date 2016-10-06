@@ -15,8 +15,8 @@ Powered by python 3.5 and django 1.10
 项目主要结构：
 --- 
   >blog/<br>
-     >> __init__.py<br>
-     >> admin.py<br>
+  >> __init__.py<br>
+  >> admin.py<br>
      >> apps.py<br>
      >> forms.py
      >> models.py       ---模型<br>
