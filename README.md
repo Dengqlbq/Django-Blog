@@ -46,16 +46,23 @@ Powered by python 3.5 and django 1.10
 	    password : wode1234<br>
  --- 
   2:<br>
-    (1) fork 本项目到你的仓库<br>
-    (2) 克隆你的仓库到本地<br>
-    (3) 命令行执行 pip install -r requirements.txt（注意在 requirements.txt 所在目录下执行，否则请输入完整路径名）安装依赖包<br>
-    (4) cd到manage.py所在文件夹<br>
-    (5) 执行以下cmd命令 ：python manage.py makemigrations<br>
-                        python manage.py migrate<br>
-                        python manage.py createsuperuser<br>
-    (6) 运行python manage.py runserver<br>
-    (7) 127.0.0.1:8000/blog  到博客首页<br>
-    (8) 127.0.0.1:8000/admin 到博客后台<br>
+1. fork 本项目到你的仓库
+2. 克隆你的仓库到本地
+3. 命令行执行 pip install -r requirements.txt（注意在 requirements.txt 所在目录下执行，否则请输入完整路径名）安装依赖包
+4. 迁移数据库，在 manage.py 所在目录执行
+
+        python manage.py makemigrations
+        python manage.py migrate
+
+5. 类似步骤4，运行命令创建超级用户
+
+        python manage.py createsuperuser
+
+6. 类似步骤4、5，在 manage.py 所在目录执行
+
+        python manage.py runserver
+
+7. 浏览器输入 http://127.0.0.1:8000/
     
     注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步
       	username : haha
