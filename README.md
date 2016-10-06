@@ -14,9 +14,9 @@ Powered by python 3.5 and django 1.10
  
 项目主要结构：
 --- 
-  >blog/<br>
   >mycode/<br>
   >manage.py<br>
+  >blog/<br>
   >> __init__.py<br>
   >> admin.py<br>
   >> apps.py<br>
@@ -34,6 +34,7 @@ Powered by python 3.5 and django 1.10
   >>>base.html<br>
   >>>base2.html<br>
   >>>blog/<br>
+  
   
 ---                    
  项目运行方式<br>
