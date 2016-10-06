@@ -26,15 +26,8 @@ Powered by python 3.5 and django 1.10
   >> urls.py         ---url解析<br>
   >> views.py        ---视图函数<br>
   >> static/         ---存放hmtl相关静态文件<br>
-  >>>blog/<br>
-  >>>>css/<br>
-  >>>>img/<br>
-  >>>>js/<br>
----
-  >>templates/     ---html文件<br>
-  >>>base.html<br>
-  >>>base2.html<br>
-  >>>blog/<br>
+  >>templates/      ---html文件<br>
+
   
   
 ---                    
