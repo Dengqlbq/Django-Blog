@@ -45,7 +45,8 @@ Powered by python 3.5 and django 1.10
 	    username : haha<br>
 	    password : wode1234<br>
  --- 
-  2:<br>
+2:<br>
+
 1. fork 本项目到你的仓库
 2. 克隆你的仓库到本地
 3. 命令行执行 pip install -r requirements.txt（注意在 requirements.txt 所在目录下执行，否则请输入完整路径名）安装依赖包
@@ -64,9 +65,9 @@ Powered by python 3.5 and django 1.10
 
 7. 浏览器输入 http://127.0.0.1:8000/
     
-    注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步
-      	username : haha
-        password : wode1234
+		注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第5步
+			username : haha
+			password : wode1234
   
 
 
