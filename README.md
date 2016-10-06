@@ -30,25 +30,6 @@ Powered by python 3.5 and django 1.10
   
 ---                    
  项目运行方式<br>
- 
-(1)：<br>
- 
-1. fork 本项目到你的仓库
-2. cd到manage.py所在文件夹
-3. 执行以下cmd命令 
-		python manage.py makemigrations
-		python manage.py migrate
-		python manage.py createsuperuser
-4. 运行python manage.py runserver
-5. 到博客首页
-		1270.0.1:8000/blog
-6. 到博客后台
-		1270.0.1:8000/admin   
-8. 注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第3步
-	 	username : haha
-	 	password : wode1234
- --- 
-(2):<br>
 
 1. fork 本项目到你的仓库
 2. 克隆你的仓库到本地
