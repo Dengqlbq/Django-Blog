@@ -51,7 +51,7 @@ Powered by python 3.5 and django 1.10
     
 8. 注：本项目的db.sqlite3文件为原有数据库文件，可直接使用，则可以跳过第4,5步
 
- 	  	username : haha
+ 	   username : haha
 	   password : wode1234
   
 
