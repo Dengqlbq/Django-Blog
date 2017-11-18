@@ -1,10 +1,14 @@
 # Django-Blog
 
-此项目是一个简易博客系统
-====
-Powered by python 3.5 and django 1.10
+简易博客系统
+
 ---
-实现功能：<br>
+Powered by 
+python 3.5
+django 1.10
+
+---
+### 实现功能：<br>
 
 	1：文章归档
   	2：文章分类
@@ -12,7 +16,7 @@ Powered by python 3.5 and django 1.10
   	4：添加评论
   	5：分页显示
  
-项目主要结构：<br>
+### 项目主要结构：<br>
 --- 
   >mycode/<br>
   >manage.py<br>
@@ -29,7 +33,7 @@ Powered by python 3.5 and django 1.10
   >>templates/      ---html文件<br>
   
 ---                    
- 项目运行方式<br>
+### 项目运行方式<br>
 
 1. fork 本项目到你的仓库
 2. 克隆你的仓库到本地
