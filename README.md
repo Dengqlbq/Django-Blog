@@ -1,11 +1,11 @@
 # Django-Blog
 
-简易博客系统
+## 简易博客系统
 
 ---
-Powered by 
-python 3.5
-django 1.10
+Powered by:
+1. python 3.5
+2. django 1.10
 
 ---
 ### 实现功能：<br>
