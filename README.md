@@ -1,9 +1,6 @@
-# Django-Blog
-
 ## 简易博客系统
 
----
-Powered by:
+### Powered by:
 1. python 3.5
 2. django 1.10
 
